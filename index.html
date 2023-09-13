@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oggetto di esame per metalinguaggi presso gli studi di Roma Tor Vergata, rappresentante un ipotetica scuola di volo di Roma e realizzato con HTML CSS e Java Script da me medesimo Manuel Pammer.">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/queries.css">
+    <link rel="stylesheet" href="./shop.html">
+    <!-- <link rel="stylesheet" href="css/quaries.css" /> -->
+
+    <title>Scuola di parapendio</title>
+
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule=""
+    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+  ></script>
+
+  <script defer src="./script.js"></script>
+  
+</head>
+<body>
+    <header class="header">
+            <a href="#">
+                <img class="header--logo" alt="Scuola Parapendio logo" src="img/logo.jpg" />
+              </a>
+          
+          <nav class="nav">
+          <ul class="nav--list">
+            <li><a class="nav--link" href="#">Home</a></li>
+            <li><a class="nav--link" href="#section--how">Corsi pilota</a></li>
+            <li><a class="nav--link" href="#section--tandem">Prenota un volo</a></li>
+            <li><a class="nav--link" href="#section--gallery">Galleria</a></li>
+            <li><a href="./shop.html" class="nav--link nav--icon-box"><ion-icon name="cart-outline" class="nav--icon">&nbsp;</ion-icon></a></li>
+          </ul>
+        </nav>
+
+        <button class="btn--mobile-nav">
+          <ion-icon class="icon--mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon--mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </header>
+      <main>
+      <section id="section--hero">
+        <div class="hero">
+          <div class="hero--text-box">
+            <h1 class="hero--heading">Il Parapendio a Roma</h1>
+            <p class="hero--text">
+              Volare è facile e sicuro, se seguiti.
+            </p>
+            
+            <div class="hero--contact">
+              <a href="tel:+39 347.6965614" class="hero--number">+39 347.6965614</a>
+              <a href="https://goo.gl/maps/Vmp11tgXcWGHMnwB9" target="_blank" class="hero--address-icon-box">Via Columbia 1, 00133 Roma RM.
+              <ion-icon name="pin-outline" class="hero--address-icon">&nbsp;</ion-icon>
+            </a>
+            <div class="hero--social">
+              <a href="#" target="_blank" class="hero--social-icon-box">
+                <ion-icon name="logo-vimeo" class="hero--social-icon"></ion-icon>
+              </a>
+              <a href="#" target="_blank" class="hero--social-icon-box">
+                <ion-icon name="logo-facebook" class="hero--social-icon"></ion-icon>
+              </a>
+              <a href="#" target="_blank" class="hero--social-icon-box">
+                <ion-icon name="logo-youtube" class="hero--social-icon"></ion-icon>
+              </a>
+              <a href="#" target="_blank" class="hero--social-icon-box">
+                <ion-icon name="logo-instagram" class="hero--social-icon"></ion-icon>
+              </a>
+              <a href="#" target="_blank" class="hero--social-icon-box">
+                <ion-icon name="logo-twitter" class="hero--social-icon"></ion-icon>
+              </a>
+            </div>
+          </div>
+          </div>
+          
+          <div class="hero--img-box">
+            <img
+              src="./img/nuvole.webp"1
+              alt="Parapendio tra le nuvole"
+              class="hero--img"
+            />
+            <div class="hero--btns">
+              <a href="#section--how" class="btn hero--btn">Corsi per piloti</a>
+              <a href="#section--tandem" class="btn hero--btn">Vola con i nostri esperti</a>
+              <a href="#section--gallery" class="btn hero--btn">Galleria</a>
+            </div>
+          </div>
+          <div class="hero--end">
+            <a href="#section--how" class="end--icon-box"
+              ><ion-icon
+                name="chevron-down-circle-outline"
+                class="end--icon"
+              ></ion-icon
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section id="section--how">
+        <div class="how">
+            <h2 class="heading--secondary how--heading">Diventa un pilota</h2>
+            <p class="how--text">
+              Scegli la soluzione migliore per te.
+            </p>
+
+            <div class="how--cards-box">
+              <div class="how--card">
+                <h3 class="heading--tertiary">Corso Base</h3>
+                <ul class="how--card-list">
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Inizia da zero</li>
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Materiale scolastico</li>
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Attività teorica</li>
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Attività pratica</li>
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Assicurazione infortuni</li>
+                </ul>
+                <span class="how--card-price">&euro;700</span>
+                  <a href="./shop.html" class="shopping--icon-box"><ion-icon name="cart-outline" class="shopping--icon">&nbsp;</ion-icon></a>
+                
+              </div>
+              <div class="how--card">
+                <h3 class="heading--tertiary">Corso Avanzato</h3>
+                <ul class="how--card-list">
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Consegui l'attestato</li>
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Attività teorica</li>
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Attività pratica</li>
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Assicurazione infortuni</li>
+                </ul>
+                <p class="how--card-feature"><span class="how--card-price">&euro;900</span>/ Attrezzatura autonoma</p>
+                <p class="how--card-feature"><span class="how--card-price">&euro;0 </span>/ Se acquistata da noi</p>
+                <a href="./shop.html" class="shopping--icon-box"><ion-icon name="cart-outline" class="shopping--icon">&nbsp;</ion-icon></a>
+              </div>
+              <div class="how--card">
+                <h3 class="heading--tertiary">Istruzione a 360&deg;</h3>
+                <ul class="how--card-list">
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Volo in Termica</li>
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Cross Country</li>
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Ground Handling</li>
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Agonistica</li>
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>SIV</li>
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Attestato biposto</li>
+                  <li class="how--card-element"> <span class="how--card-icon-box"> <ion-icon name="checkmark-outline" class="how--card-icon">&nbsp;</ion-icon></span>Ripresa voli</li>
+                </ul>
+                <span class="info--icon-box"><ion-icon name="information-circle-outline" class="info--icon">&nbsp;</ion-icon></span>
+              </div>
+            </div>
+          <aside class="how--aside">
+            Unisciti alla scuola di volo, l'attestato è solo l'inizio!
+          </aside>
+          <div class="how--end">
+            <a href="#section--tandem" class="end--icon-box"><ion-icon
+                  name="chevron-down-circle-outline"
+                  class="end--icon"
+                ></ion-icon
+              ></a>
+            </div>
+        </div>
+        
+      </section>
+      <section id="section--tandem">
+        <div class="tandem">
+            <h2 class="heading--secondary tandem--heading">Prenota un volo biposto</h2>
+            <p class="tandem--text">
+              Scegli la soluzione migliore per te.
+            </p>
+
+            <div class="tandem--cards-box">
+              <div class="tandem--card">
+                <h3 class="heading--tertiary">Volo Turistico</h3>
+                <ul class="tandem--card-list">
+                  <li class="tandem--card-element"> <span class="tandem--card-icon-box"> <ion-icon name="checkmark-outline" class="tandem--card-icon">&nbsp;</ion-icon></span>Fino a gruppi di 20.</li>
+                  <li class="tandem--card-element"> <span class="tandem--card-icon-box"> <ion-icon name="checkmark-outline" class="tandem--card-icon">&nbsp;</ion-icon></span>365 giorni l'anno, a seconda delle previsioni.</li>
+                  <li class="tandem--card-element"> <span class="tandem--card-icon-box"> <ion-icon name="checkmark-outline" class="tandem--card-icon">&nbsp;</ion-icon></span>Briefing iniziale.</li>
+                  <li class="tandem--card-element"> <span class="tandem--card-icon-box"> <ion-icon name="checkmark-outline" class="tandem--card-icon">&nbsp;</ion-icon></span>Assicurazione infortuni.</li>
+                  <li class="tandem--card-element"> <span class="tandem--card-icon-box"> <ion-icon name="checkmark-outline" class="tandem--card-icon">&nbsp;</ion-icon></span>GoPro per le riprese sportive ad alta definizione</li>
+                </ul>
+                <p class="tandem--card-feature"><span class="tandem--card-price">&euro;120</span>/ 10-20 min</p>
+                <p class="tandem--card-feature"><span class="tandem--card-price">&euro;140</span>/ 30-40 min</p>
+                <p class="tandem--card-feature"><span class="tandem--card-price">&euro;190</span>/ 40-60 min</p>
+                <p class="tandem--card-feature"><span class="tandem--card-price">&euro;300</span>/ 10-20 min</p>
+                  <a href="./shop.html" class="shopping--icon-box"><ion-icon name="cart-outline" class="shopping--icon">&nbsp;</ion-icon></a>
+                
+              </div>
+              <div class="tandem--card">
+                <h3 class="heading--tertiary">Volo Didattico</h3>
+                <ul class="tandem--card-list">
+                  <li class="tandem--card-element"> <span class="tandem--card-icon-box"> <ion-icon name="checkmark-outline" class="tandem--card-icon">&nbsp;</ion-icon></span>Miglioramento del pilotaggio.</li>
+                  <li class="tandem--card-element"> <span class="tandem--card-icon-box"> <ion-icon name="checkmark-outline" class="tandem--card-icon">&nbsp;</ion-icon></span>Correzione tecnica in tempo reale.</li>
+                  <li class="tandem--card-element"> <span class="tandem--card-icon-box"> <ion-icon name="checkmark-outline" class="tandem--card-icon">&nbsp;</ion-icon></span>Attività pratica</li>
+                  <li class="tandem--card-element"> <span class="tandem--card-icon-box"> <ion-icon name="checkmark-outline" class="tandem--card-icon">&nbsp;</ion-icon></span>Attività teorica.</li>
+                </ul>
+                <p class="tandem--card-feature"><span class="tandem--card-price">&euro;100</span></p>
+
+                <a href="./shop.html" class="shopping--icon-box"><ion-icon name="cart-outline" class="shopping--icon">&nbsp;</ion-icon></a>
+              </div>
+              
+            </div>
+            <div class="tandem--aside">
+              Prova il brivido di volare accompagnato da un istruttore esperto!
+            </div>
+            <div class="tandem--end">
+              <a href="#section--gallery" class="end--icon-box"
+                  ><ion-icon
+                    name="chevron-down-circle-outline"
+                    class="end--icon"
+                  ></ion-icon
+                ></a>
+              </div>
+          
+        </div>
+        
+      </section>
+      
+      <section id="section--gallery">
+
+        <div class="gallery--header-box">
+          <h1 class="heading--primary gallery--heading">Lasciati incuriosire dai nostri video</h1>
+        </div>
+        <div class="gallery--container">
+        <div class="gallery">
+          <div class="gallery--1row-1col">
+            <svg class="gallery--icon" xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="#000000" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216ZM140,80v96a8,8,0,0,1-16,0V95l-11.56,7.71a8,8,0,1,1-8.88-13.32l24-16A8,8,0,0,1,140,80Z"></path></svg>
+          </div>
+          <div class="gallery--1row-2col">
+            <p>Video promo</p>
+          </div>
+          <div class="gallery--video-box">
+            <iframe class="gallery--video" title="vimeo-player" src="https://player.vimeo.com/video/294811916?h=62956e35c8" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="gallery--2row-1col">
+            <svg class="gallery--icon" xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="#000000" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm25.56-92.74L120,168h32a8,8,0,0,1,0,16H104a8,8,0,0,1-6.4-12.8l43.17-57.56a16,16,0,1,0-27.86-15,8,8,0,0,1-15.09-5.34,32,32,0,1,1,55.74,29.93Z"></path></svg>
+          </div>
+          <div class="gallery--2row-2col">
+            <p>Video promo</p>
+          </div>
+          <div class="gallery--video-box">
+            <iframe class="gallery--video" title="vimeo-player" src="https://player.vimeo.com/video/298608793?h=40d9129049" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+          <div class="gallery--3row-1col">
+            <svg class="gallery--icon" xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="#000000" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm32-64a36,36,0,0,1-61.71,25.19A8,8,0,1,1,109.71,166,20,20,0,1,0,124,132a8,8,0,0,1-6.55-12.59L136.63,92H104a8,8,0,0,1,0-16h48a8,8,0,0,1,6.55,12.59l-21,30A36.07,36.07,0,0,1,160,152Z"></path></svg>
+          </div>
+          <div class="gallery--3row-2col">
+            <p>Eleonora.</p>
+          </div>
+          <div class="gallery--video-box"><iframe class="gallery--video" title="vimeo-player" src="https://player.vimeo.com/video/225605446?h=d9b376c2bc" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+          <div class="gallery--4row-1col">
+              <svg class="gallery--icon" xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="#000000" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm40-72a8,8,0,0,1-8,8h-8v24a8,8,0,0,1-16,0V152H96a8,8,0,0,1-7.59-10.53l24-72a8,8,0,0,1,15.18,5.06L107.1,136H136V112a8,8,0,0,1,16,0v24h8A8,8,0,0,1,168,144Z"></path></svg>
+          </div>
+          <div class="gallery--4row-2col">
+            <p>Daniele & Stefano.</p>
+          </div>
+          <div class="gallery--video-box">
+            <iframe class="gallery--video" title="vimeo-player" src="https://player.vimeo.com/video/226734056?h=4fb07a8cb7" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+          </div>
+          
+        </div>
+      </div>
+        
+        <div class="gallery--end">
+          <a href="#"
+              ><ion-icon
+                name="chevron-up-circle-outline"
+                class="end--icon color"
+              ></ion-icon
+            ></a>
+          </div>
+      </section>
+      </main>
+    <footer class="footer" id="footer">
+      <div class="footer--logo-box">
+        <a href="#">
+          <img class="footer--logo" alt="Scuola Parapendio logo" src="img/logo.jpg" />
+        </a>
+        <p class="footer--copy">Copyright &copy;<span class="year">x</span> by ManuelPammer Inc. All rights reserved.</p>
+      </div>
+      <div class="footer--contact"><a href="tel:+39 347.6965614" class="footer--number">+39 347.6965614</a>
+    
+          <a href="https://goo.gl/maps/Vmp11tgXcWGHMnwB9" target="_blank" class="footer--address-icon-box">Via Columbia 1, 00133 Roma RM.
+          <ion-icon name="pin-outline" class="footer--address-icon">&nbsp;</ion-icon></a>
+      
+        <div class="footer--social">
+          <a href="#" target="_blank" class="footer--social-icon-box">
+            <ion-icon name="logo-vimeo" class="footer--social-icon"></ion-icon>
+          </a>
+          <a href="#" target="_blank" class="footer--social-icon-box">
+            <ion-icon name="logo-facebook" class="footer--social-icon"></ion-icon>
+          </a>
+          <a href="#" target="_blank" class="footer--social-icon-box">
+            <ion-icon name="logo-youtube" class="footer--social-icon"></ion-icon>
+          <a href="#" target="_blank" class="footer--social-icon-box">
+            <ion-icon name="logo-instagram" class="footer--social-icon"></ion-icon>
+          <a href="#" target="_blank" class="footer--social-icon-box">
+            <ion-icon name="logo-twitter" class="footer--social-icon"></ion-icon>
+          </a>
+        </div>
+      </div>
+      <div class="footer--webmaster">
+        <p class="footer--webmaster-p">
+          Hai un consiglio? <br>
+          Il sito può migliorare anche con te... <br>
+          Mandaci una e-mail:<br></p>
+         <a href="mailto:manuelpamm@gmail.com" class="footer--webmaster-mail">manuelpamm@gmail.com</a>
+        
+      </div>
+    </footer>
+</body>
+</html>

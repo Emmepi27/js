@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 10px; */
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+  }
+
+
+  .btn {
+  display: inline-block;
+  
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 1.2rem 2.4rem;
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  color: #fff;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+}
+
+/**************************/
+/* REUSABLE */
+/**************************/
+
+.container {
+    /* 1140px */
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+  }
+  
+  .grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+  }
+  
+  .grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .heading--primary,
+  .heading--secondary,
+  .heading--tertiary {
+    font-weight: 700;
+    color: #555;
+    letter-spacing: -0.5px;
+  }
+  
+  .heading--primary {
+    font-size: 2.8rem;
+    line-height: 1.05;
+  }
+  
+  .heading--secondary {
+    font-size: 4.4rem;
+    line-height: 1.2;
+    
+  }
+  
+  .heading--tertiary {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    color: #003e3e;
+  }
+
+  .end--icon {
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+
+  .end--icon-box:link,
+  .end--icon-box:visited {
+    color: #003e3e;
+    transition: all 0.3s;
+  }
+
+  .end--icon-box:hover {
+    transform: scale(1.5);
+  }
+
+  .end--icon-box:active {
+    transform: scale(1.2);
+  }
